@@ -1,6 +1,5 @@
 streamlit
 pathlib
-os
 numpy
 pandas
 scikit-learn
