@@ -9,11 +9,10 @@ framingham = framingham.dropna()
 framingham.head()
 
 from sklearn.metrics import accuracy_score
-import win32api
+
 
 # Assuming 'framingham' is your DataFrame and 'TenYearCHD' is a column in it
 X = framingham.drop('TenYearCHD', axis=1)
-
 #from sklearn.metrics import accuracy_scoreX = framingham.drop('TenYearCHD',axis=1)
 # Assuming 'framingham' is your DataFrame and 'TenYearCHD' is a column in it
 #X = framingham.drop('TenYearCHD', axis=1)
