@@ -123,11 +123,11 @@ prediction = model.predict(df_pred)
 # Display result
 if st.button('Predict'):
 	if prediction[0] == 0:
-		#st.write('<p class="big-font">You likely will not develop heart disease in 10 years.</p>', unsafe_allow_html=True)
-                win32api.MessageBox(0, 'You likely will not develop heart disease in 10 years.', 'Heart Disease Prediction')
+		st.write('<p class="big-font">You likely will not develop heart disease in 10 years.</p>', unsafe_allow_html=True)
+        #win32api.MessageBox(0, 'You likely will not develop heart disease in 10 years.', 'Heart Disease Prediction')
 	else:
-		#st.write('<p class="big-font">You are likely to develop heart disease in 10 years.</p>', unsafe_allow_html=True)
-                win32api.MessageBox(0, 'You are likely to develop heart disease in 10 years.', 'Heart Disease Prediction')
+		st.write('<p class="big-font">You are likely to develop heart disease in 10 years.</p>', unsafe_allow_html=True)
+        #win32api.MessageBox(0, 'You are likely to develop heart disease in 10 years.', 'Heart Disease Prediction')
 
 
 ##########################################################
