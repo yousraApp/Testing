@@ -1,6 +1,4 @@
 streamlit
-alert_me
-pathlib
 numpy
 pandas
 scikit-learn
