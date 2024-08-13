@@ -6,3 +6,4 @@ matplotlib
 seaborn
 altair
 imblearn
+win32api
