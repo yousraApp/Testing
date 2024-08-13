@@ -1,4 +1,5 @@
 streamlit
+pywin32
 numpy
 pandas
 scikit-learn
