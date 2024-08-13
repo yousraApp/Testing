@@ -1,5 +1,5 @@
 streamlit
-ctypes
+alert_me
 pathlib
 numpy
 pandas
