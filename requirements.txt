@@ -1,5 +1,4 @@
 streamlit
-platform
 pathlib
 numpy
 pandas
