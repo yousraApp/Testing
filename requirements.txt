@@ -1,5 +1,5 @@
 streamlit
-subprocess
+platform
 pathlib
 numpy
 pandas
