@@ -1,5 +1,5 @@
 streamlit
-pywin32
+subprocess
 pathlib
 numpy
 pandas
